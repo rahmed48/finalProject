@@ -9,6 +9,7 @@ import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityI
 import HomeScreen from '../Pages/Home';
 import AboutScreen from '../Pages/AboutScreen';
 import LoginScreen from '../Pages/Login';
+import RegisterScreen from '../Pages/Register';
 import ProjectScreen from '../Pages/ProjectScreen';
 import Setting from '../Pages/Setting';
 import SkillProject from '../Pages/SkillProject';
@@ -23,9 +24,10 @@ export default function Router() {
         <NavigationContainer>
             <Stack.Navigator screenOptions={{ headerShown: false }}>
                 <Stack.Screen name="LoginScreen" component={LoginScreen} />
+                <Stack.Screen name="RegisterScreen" component={RegisterScreen} />
                 <Stack.Screen name="HomeScreen" component={HomeScreen} />
                 <Stack.Screen name="MainApp" component={MainApp} />
-                <Stack.Screen name="MyDrawwer" component={MyDrawwer} />
+                {/* <Stack.Screen name="MyDrawwer" component={MyDrawwer} /> */}
             </Stack.Navigator>
         </NavigationContainer>
     )
@@ -35,38 +37,43 @@ const MainApp = () => (
     <Tab.Navigator
         initialRouteName="Feed"
         tabBarOptions={{
-            activeTintColor: '#e91e63',
+            activeTintColor: '#000000',
+            inactiveTintColor: '#FFFFFF',
+            style: {
+                backgroundColor: '#FFE500',
+            },
+            showLabel: false
         }}>
         {/* <Tab.Screen name="HomeScreen" component={HomeScreen} /> */}
         <Tab.Screen name="AboutScreen" component={AboutScreen}
             options={{
-                tabBarLabel: 'AboutScreen',
+                tabBarLabel: 'Home',
                 tabBarIcon: ({ color, size }) => (
                     <MaterialCommunityIcons name="home" color={color} size={size} />
                 ),
             }} />
         <Tab.Screen name="AddScreen" component={AddScreen}
             options={{
-                tabBarLabel: 'AddScreen',
+                tabBarLabel: 'Cart',
                 tabBarIcon: ({ color, size }) => (
-                    <MaterialCommunityIcons name="bell" color={color} size={size} />
+                    <MaterialCommunityIcons name="cart" color={color} size={size} />
                 ),
-                tabBarBadge: 3,
+                // tabBarBadge: 10,
             }}
         />
         <Tab.Screen name="SkillProject" component={SkillProject}
             options={{
-                tabBarLabel: 'SkillProject',
+                tabBarLabel: 'Profile',
                 tabBarIcon: ({ color, size }) => (
-                    <MaterialCommunityIcons name="account" color={color} size={size} />
+                    <MaterialCommunityIcons name="account-circle" color={color} size={size} />
                 ),
             }} />
     </Tab.Navigator>
 )
 
-const MyDrawwer = () => (
-    <Drawer.Navigator>
-        <Drawer.Screen name="App" component={MainApp} />
-        <Drawer.Screen name="AboutScreen" component={AboutScreen} />
-    </Drawer.Navigator>
-)
+// const MyDrawwer = () => (
+//     <Drawer.Navigator>
+//         <Drawer.Screen name="App" component={MainApp} />
+//         <Drawer.Screen name="AboutScreen" component={AboutScreen} />
+//     </Drawer.Navigator>
+// )

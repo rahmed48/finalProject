@@ -4,6 +4,19 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet, Image } from 'react-native';
 import Router from './Router'
 import axios from 'axios'
+import firebase from '@react-native-firebase/app'
+var firebaseConfig = {
+  apiKey: "AIzaSyBEMWCK-kpihTwZt5YqGJxkBp4JCHznk9k",
+  authDomain: "pesanin-56e9d.firebaseapp.com",
+  projectId: "pesanin-56e9d",
+  storageBucket: "pesanin-56e9d.appspot.com",
+  messagingSenderId: "11035960082",
+  appId: "1:11035960082:web:09d026ae4db5c3feaf89cb",
+  measurementId: "G-JLCLE2M6L8"
+};
+if (!firebase.apps.length) {
+  firebase.initializeApp(firebaseConfig)
+}
 
 export default function App() {
   const [nameToko, setNameToko] = useState({
@@ -29,7 +42,7 @@ export default function App() {
   return splash ?
     (<View style={styles.container}>
       {/* <Text style={styles.textSplash}>{`${nameToko.nameToko}`}</Text> */}
-      <Image style={styles.logo} source={require('./assets/SplashS.png')} />
+      <Image style={styles.logo} source={require('./assets/Group1.png')} />
     </View>) : (
       <Router />
     );

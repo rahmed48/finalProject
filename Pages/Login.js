@@ -1,11 +1,33 @@
 import React, { useState } from 'react';
-import { Button, Image, StyleSheet, Text, TextInput, View, TouchableOpacity } from 'react-native';
+import { Button, Image, StyleSheet, Text, TextInput, View, TouchableOpacity, Alert } from 'react-native';
+import auth from '@react-native-firebase/auth';
 
 export default function Login({ navigation }) {
-    const [username, setUsername] = useState("");
+    const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [isError, setIsError] = useState(false);
 
+    const register = () => {
+        return (
+            navigation.navigate('RegisterScreen')
+        )
+    }
+    const login = () => {
+        if (email == '' || password == '') {
+            Alert.alert('Error', 'Form Tidak Lengkap')
+        }
+        else {
+            auth().signInWithEmailAndPassword(email, password)
+                .then((res) => {
+                    return (
+                        navigation.navigate('MainApp')
+                    )
+                })
+                .catch((err) => {
+                    Alert.alert('Error', err.message)
+                })
+        }
+    }
     const submit = () => {
         if (password == 'asd') {
             return (
@@ -35,32 +57,34 @@ export default function Login({ navigation }) {
             <View style={styles.container}>
                 <TextInput
                     style={{
-                        borderWidth: 1,
-                        paddingVertical: 10,
-                        borderRadius: 20,
-                        width: 300,
+                        marginTop: 15,
+                        borderBottomWidth: 1,
+                        paddingVertical: 2,
+                        width: 320,
                         marginBottom: 30,
-                        paddingHorizontal: 10,
+                        paddingHorizontal: 5,
                     }}
-                    placeholder="Masukan Username"
-                    value={username}
-                    onChangeText={(value) => setUsername(value)}
+                    placeholder="Masukan Email"
+                    value={email}
+                    onChangeText={(value) => setEmail(value)}
                 />
                 <TextInput
                     style={{
-                        borderWidth: 1,
-                        paddingVertical: 10,
-                        borderRadius: 20,
-                        width: 300,
+                        marginTop: 15,
+                        borderBottomWidth: 1,
+                        paddingVertical: 2,
+                        width: 320,
                         marginBottom: 30,
-                        paddingHorizontal: 10,
+                        paddingHorizontal: 5,
                     }}
                     placeholder="Masukan Password"
                     value={password}
+                    secureTextEntry
                     onChangeText={(value) => setPassword(value)}
                 />
+
                 <TouchableOpacity
-                    onPress={submit}
+                    onPress={login}
                     style={{
                         marginTop: 10,
                         height: 50,
@@ -68,15 +92,53 @@ export default function Login({ navigation }) {
                         borderRadius: 25,
                         justifyContent: 'center',
                         backgroundColor: '#FFE500',
+                        shadowColor: '#000',
+                        shadowOffset: { width: 0, height: 2 },
+                        shadowOpacity: 0.5,
+                        shadowRadius: 2,
+                        elevation: 5,
                     }}>
                     <Text
                         style={{
                             textAlign: 'center',
-                            color: 'black',
-                            fontSize: 15,
+                            color: 'white',
+                            fontSize: 20,
                             fontWeight: 'bold',
                         }}>
                         Login
+                    </Text>
+                </TouchableOpacity>
+
+
+                <Text
+                    style={{
+                        fontSize: 10,
+                        marginTop: 10,
+                    }}>
+                    Belum punya akun ?...
+                    </Text>
+                <TouchableOpacity
+                    onPress={register}
+                    style={{
+                        height: 50,
+                        width: 150,
+                        borderRadius: 25,
+                        justifyContent: 'center',
+                        backgroundColor: '#FFE500',
+                        shadowColor: '#000',
+                        shadowOffset: { width: 0, height: 2 },
+                        shadowOpacity: 0.5,
+                        shadowRadius: 2,
+                        elevation: 5,
+                    }}>
+                    <Text
+                        style={{
+                            textAlign: 'center',
+                            color: 'white',
+                            fontSize: 20,
+                            fontWeight: 'bold',
+                        }}>
+                        Register
                     </Text>
                 </TouchableOpacity>
                 {/* <Button onPress={submit} title="Login" /> */}
@@ -94,12 +156,14 @@ const styles = StyleSheet.create({
     ellipse2: {
         position: 'absolute',
         top: 164,
-        left: 106
+        left: 106,
+        right: 240
     },
     ellipse3: {
         position: 'absolute',
         top: 185,
-        left: 117
+        left: 110,
+        right: 220
     },
     logo: {
         position: 'absolute',

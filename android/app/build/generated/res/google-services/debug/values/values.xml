@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">11035960082-tv6ajmn8g4sgkq99bcrol9aro51j15dd.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">11035960082</string>
+    <string name="google_api_key" translatable="false">AIzaSyA6xPnh_UK12pSbKcdPV5Hdk3xWQEgp0E4</string>
+    <string name="google_app_id" translatable="false">1:11035960082:android:f89e93f87064f45caf89cb</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA6xPnh_UK12pSbKcdPV5Hdk3xWQEgp0E4</string>
+    <string name="google_storage_bucket" translatable="false">pesanin-56e9d.appspot.com</string>
+    <string name="project_id" translatable="false">pesanin-56e9d</string>
+</resources>

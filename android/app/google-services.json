@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "11035960082",
+    "project_id": "pesanin-56e9d",
+    "storage_bucket": "pesanin-56e9d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:11035960082:android:f89e93f87064f45caf89cb",
+        "android_client_info": {
+          "package_name": "com.finalproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "11035960082-tv6ajmn8g4sgkq99bcrol9aro51j15dd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6xPnh_UK12pSbKcdPV5Hdk3xWQEgp0E4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "11035960082-tv6ajmn8g4sgkq99bcrol9aro51j15dd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
