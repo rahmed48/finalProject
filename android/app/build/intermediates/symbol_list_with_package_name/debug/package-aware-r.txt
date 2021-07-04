@@ -1338,6 +1338,16 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable assets_bi_personcircle
+drawable assets_ellipse2
+drawable assets_ellipse3
+drawable assets_ellipse4
+drawable assets_foto
+drawable assets_github
+drawable assets_gitlab
+drawable assets_group1
+drawable assets_mail
+drawable assets_wa
 drawable avd_hide_password
 drawable avd_show_password
 drawable btn_checkbox_checked_mtrl
@@ -1396,6 +1406,9 @@ drawable mtrl_popupmenu_background
 drawable mtrl_popupmenu_background_dark
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
+drawable node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon
+drawable node_modules_reactnavigation_stack_src_views_assets_backicon
+drawable node_modules_reactnavigation_stack_src_views_assets_backiconmask
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -1874,6 +1887,8 @@ layout text_view_without_line_height
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
+raw app
+raw node_modules_reactnativevectoricons_glyphmaps_materialcommunityicons
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description

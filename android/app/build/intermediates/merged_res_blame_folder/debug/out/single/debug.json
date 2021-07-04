@@ -4,12 +4,84 @@
         "source": "/home/rahmed48/finalProject/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/rahmed48/finalProject/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/home/rahmed48/finalProject/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "/home/rahmed48/finalProject/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "/home/rahmed48/finalProject/android/app/src/main/res/drawable-xxhdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
     },
     {
-        "merged": "/home/rahmed48/finalProject/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "/home/rahmed48/finalProject/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "/home/rahmed48/finalProject/android/app/build/intermediates/res/merged/debug/drawable-mdpi_assets_github.png.flat",
+        "source": "/home/rahmed48/finalProject/android/app/src/main/res/drawable-mdpi/assets_github.png"
+    },
+    {
+        "merged": "/home/rahmed48/finalProject/android/app/build/intermediates/res/merged/debug/drawable-hdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "/home/rahmed48/finalProject/android/app/src/main/res/drawable-hdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+    },
+    {
+        "merged": "/home/rahmed48/finalProject/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
+        "source": "/home/rahmed48/finalProject/android/app/src/main/res/drawable-xxhdpi/node_modules_reactnavigation_stack_src_views_assets_backicon.png"
+    },
+    {
+        "merged": "/home/rahmed48/finalProject/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
+        "source": "/home/rahmed48/finalProject/android/app/src/main/res/drawable-xxxhdpi/node_modules_reactnavigation_stack_src_views_assets_backicon.png"
+    },
+    {
+        "merged": "/home/rahmed48/finalProject/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/rahmed48/finalProject/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/rahmed48/finalProject/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/home/rahmed48/finalProject/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/rahmed48/finalProject/android/app/build/intermediates/res/merged/debug/drawable-xhdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "/home/rahmed48/finalProject/android/app/src/main/res/drawable-xhdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+    },
+    {
+        "merged": "/home/rahmed48/finalProject/android/app/build/intermediates/res/merged/debug/drawable-mdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
+        "source": "/home/rahmed48/finalProject/android/app/src/main/res/drawable-mdpi/node_modules_reactnavigation_stack_src_views_assets_backicon.png"
+    },
+    {
+        "merged": "/home/rahmed48/finalProject/android/app/build/intermediates/res/merged/debug/drawable-mdpi_assets_mail.png.flat",
+        "source": "/home/rahmed48/finalProject/android/app/src/main/res/drawable-mdpi/assets_mail.png"
+    },
+    {
+        "merged": "/home/rahmed48/finalProject/android/app/build/intermediates/res/merged/debug/drawable-hdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
+        "source": "/home/rahmed48/finalProject/android/app/src/main/res/drawable-hdpi/node_modules_reactnavigation_stack_src_views_assets_backicon.png"
+    },
+    {
+        "merged": "/home/rahmed48/finalProject/android/app/build/intermediates/res/merged/debug/drawable-mdpi_assets_ellipse2.png.flat",
+        "source": "/home/rahmed48/finalProject/android/app/src/main/res/drawable-mdpi/assets_ellipse2.png"
+    },
+    {
+        "merged": "/home/rahmed48/finalProject/android/app/build/intermediates/res/merged/debug/raw_node_modules_reactnativevectoricons_glyphmaps_materialcommunityicons.json.flat",
+        "source": "/home/rahmed48/finalProject/android/app/src/main/res/raw/node_modules_reactnativevectoricons_glyphmaps_materialcommunityicons.json"
+    },
+    {
+        "merged": "/home/rahmed48/finalProject/android/app/build/intermediates/res/merged/debug/drawable-mdpi_node_modules_reactnavigation_stack_src_views_assets_backiconmask.png.flat",
+        "source": "/home/rahmed48/finalProject/android/app/src/main/res/drawable-mdpi/node_modules_reactnavigation_stack_src_views_assets_backiconmask.png"
+    },
+    {
+        "merged": "/home/rahmed48/finalProject/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/rahmed48/finalProject/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/rahmed48/finalProject/android/app/build/intermediates/res/merged/debug/raw_app.json.flat",
+        "source": "/home/rahmed48/finalProject/android/app/src/main/res/raw/app.json"
+    },
+    {
+        "merged": "/home/rahmed48/finalProject/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "/home/rahmed48/finalProject/android/app/src/main/res/drawable-xxxhdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+    },
+    {
+        "merged": "/home/rahmed48/finalProject/android/app/build/intermediates/res/merged/debug/drawable-mdpi_assets_bi_personcircle.png.flat",
+        "source": "/home/rahmed48/finalProject/android/app/src/main/res/drawable-mdpi/assets_bi_personcircle.png"
+    },
+    {
+        "merged": "/home/rahmed48/finalProject/android/app/build/intermediates/res/merged/debug/drawable-mdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "/home/rahmed48/finalProject/android/app/src/main/res/drawable-mdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+    },
+    {
+        "merged": "/home/rahmed48/finalProject/android/app/build/intermediates/res/merged/debug/drawable-xhdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
+        "source": "/home/rahmed48/finalProject/android/app/src/main/res/drawable-xhdpi/node_modules_reactnavigation_stack_src_views_assets_backicon.png"
     },
     {
         "merged": "/home/rahmed48/finalProject/android/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
@@ -20,23 +92,43 @@
         "source": "/home/rahmed48/finalProject/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/home/rahmed48/finalProject/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/home/rahmed48/finalProject/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/home/rahmed48/finalProject/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "/home/rahmed48/finalProject/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "/home/rahmed48/finalProject/android/app/build/intermediates/res/merged/debug/drawable-mdpi_assets_group1.png.flat",
+        "source": "/home/rahmed48/finalProject/android/app/src/main/res/drawable-mdpi/assets_group1.png"
     },
     {
         "merged": "/home/rahmed48/finalProject/android/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "/home/rahmed48/finalProject/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/home/rahmed48/finalProject/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "/home/rahmed48/finalProject/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "/home/rahmed48/finalProject/android/app/build/intermediates/res/merged/debug/drawable-mdpi_assets_ellipse3.png.flat",
+        "source": "/home/rahmed48/finalProject/android/app/src/main/res/drawable-mdpi/assets_ellipse3.png"
     },
     {
-        "merged": "/home/rahmed48/finalProject/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/home/rahmed48/finalProject/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+        "merged": "/home/rahmed48/finalProject/android/app/build/intermediates/res/merged/debug/drawable-mdpi_assets_ellipse4.png.flat",
+        "source": "/home/rahmed48/finalProject/android/app/src/main/res/drawable-mdpi/assets_ellipse4.png"
+    },
+    {
+        "merged": "/home/rahmed48/finalProject/android/app/build/intermediates/res/merged/debug/drawable-mdpi_assets_gitlab.png.flat",
+        "source": "/home/rahmed48/finalProject/android/app/src/main/res/drawable-mdpi/assets_gitlab.png"
+    },
+    {
+        "merged": "/home/rahmed48/finalProject/android/app/build/intermediates/res/merged/debug/drawable-mdpi_assets_foto.png.flat",
+        "source": "/home/rahmed48/finalProject/android/app/src/main/res/drawable-mdpi/assets_foto.png"
+    },
+    {
+        "merged": "/home/rahmed48/finalProject/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/rahmed48/finalProject/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/rahmed48/finalProject/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/rahmed48/finalProject/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/rahmed48/finalProject/android/app/build/intermediates/res/merged/debug/drawable-mdpi_assets_wa.png.flat",
+        "source": "/home/rahmed48/finalProject/android/app/src/main/res/drawable-mdpi/assets_wa.png"
+    },
+    {
+        "merged": "/home/rahmed48/finalProject/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/home/rahmed48/finalProject/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     }
 ]
